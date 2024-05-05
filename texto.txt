@@ -8,3 +8,5 @@ git index.html
 Comando para hacer un commit
 
 git commit -m "mensaje con sentido del commit"
+
+ls - sirve para ver archivos dentro de la carpeta

@@ -1,0 +1,8 @@
+Comandos para hacer un stage con git
+
+git add . - Se usa para ingresar todos los archivos (No es un buen uso)
+git .txt
+git index.html
+
+
+Modificación de prueba

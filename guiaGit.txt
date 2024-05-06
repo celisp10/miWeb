@@ -125,3 +125,22 @@ git log --oneline
 
 
 ----------------------------
+
+
+Sirve para saber en que rama uno se encuentra
+git branch
+
+
+----------------------------
+
+
+Sirve para crear una rama núeva (en estas se pueden hacer pruebas para luego ingresarlas
+a la rama inicial)
+git checkout -b <nombre de la rama>
+
+Ejemplos
+-git checkout features/rama
+-git checkout ramab
+
+
+----------------------------

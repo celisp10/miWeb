@@ -63,3 +63,12 @@ git restore <archivo>
 
 
 ----------------------------
+
+Comando para cambia (actualizar) el nombre de un archivo
+mv <Nombre (actual) del archivo> <Nombre que se decea agregar>
+
+Ejemplo
+mv index.html prueba.html
+
+
+----------------------------

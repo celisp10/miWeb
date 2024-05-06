@@ -12,6 +12,7 @@ git add archivo
 Ejemplo
 git add index.html
 
+
 git add .txt 
 
 Ejemplo
@@ -21,23 +22,24 @@ git add .txt
 
 Comando para hacer un commit
 
-git commit -m "mensaje con sentido del commit"
+git commit -m <mensaje con sentido del commit>
 
 Ejemplo
 git commit -m "Primer commit"
 ----------------------------
 
-sirve para ver archivos dentro de la carpeta
+Sirve para ver archivos dentro de la carpeta
 
 ls 
 
 ----------------------------
 
+
 Comando para eliminar archivos (de git)
 notas: Primero se ejecuta el comando el cual lo mandará a stage,
 luego con git add lo tiene que establecer (hacer que se elimine de verdad)
 
-rm (archivo a eliminar) 
+rm <archivo a eliminar>
 
 Ejemplo
 rm index.html
@@ -45,8 +47,19 @@ rm index.html
 
 OTRA FORMA DE ELIMINAR MÁS EFICIENTE
 notas: Esta forma elimina de una vez por completo el archivo
-git rm archivo
+git rm <archivo>
 
 Ejemplo
 git rm index.html
 
+
+----------------------------
+
+
+Comando para recuperar un archivo eliminado
+notas: El archivo debe de encontrarse en stage para poder ser recuperado 
+si ya fué eliminado por completo no funcionará.
+git restore <archivo>
+
+
+----------------------------

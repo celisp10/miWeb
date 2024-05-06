@@ -41,3 +41,12 @@ rm (archivo a eliminar)
 
 Ejemplo
 rm index.html
+
+
+OTRA FORMA DE ELIMINAR MÁS EFICIENTE
+notas: Esta forma elimina de una vez por completo el archivo
+git rm archivo
+
+Ejemplo
+git rm index.html
+

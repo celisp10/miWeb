@@ -1,12 +1,43 @@
+----------------------------
+
 Comandos para hacer un stage con git
+notas: El stage en realidad es un "lugar" en el que se quedan los Comandos
+sin ejecutarse, luego allí con un add se ejecutan de verdad. Osea que 
+cuando se elimina o se hace una actualización de un archivo primero se envia
+a stage y luego en stage se elimina o se hace el commit por completo.
 
-git add . - Se usa para ingresar todos los archivos (No es un buen uso)
-git .txt
-git index.html
+Se usa para ingresar todos los archivos (No es un buen uso)
+git add archivo
 
+Ejemplo
+git add index.html
+
+git add .txt 
+
+Ejemplo
+git add .txt
+
+----------------------------
 
 Comando para hacer un commit
 
 git commit -m "mensaje con sentido del commit"
 
-ls - sirve para ver archivos dentro de la carpeta
+Ejemplo
+git commit -m "Primer commit"
+----------------------------
+
+sirve para ver archivos dentro de la carpeta
+
+ls 
+
+----------------------------
+
+Comando para eliminar archivos (de git)
+notas: Primero se ejecuta el comando el cual lo mandará a stage,
+luego con git add lo tiene que establecer (hacer que se elimine de verdad)
+
+rm (archivo a eliminar) 
+
+Ejemplo
+rm index.html

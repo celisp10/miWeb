@@ -72,3 +72,24 @@ mv index.html prueba.html
 
 
 ----------------------------
+
+
+Es un archivo que nos sirve para indicar uno archivo y/o carpetas que git
+debe ignorar
+notas:En el archivo solo se tiene que ingresar el nombre del archivo o
+carpeta que se decea ignorar
+.gitignore
+
+
+----------------------------
+
+
+Sirve para ver el estado en los archivos con git
+git status
+
+OTRA FORMA
+Sirve para solo recibir informaciona al respecto de los archivo o carpetas
+y no tanta información como con <git status>
+git status -s
+
+----------------------------

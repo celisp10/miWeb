@@ -1,0 +1,17 @@
+[1mdiff --git a/guiaGit.txt b/guiaGit.txt[m
+[1mindex 7be6a48..2994c62 100644[m
+[1m--- a/guiaGit.txt[m
+[1m+++ b/guiaGit.txt[m
+[36m@@ -89,7 +89,10 @@[m [mgit status[m
+ [m
+ OTRA FORMA[m
+ Sirve para solo recibir informaciona al respecto de los archivo o carpetas[m
+[31m-y no tanta información como con <git status>[m
+[32m+[m[32my no tanta información como con <git status>.[m
+[32m+[m[32mSi aparece algun archivo en rojo significa que aun no se encuentra en stage[m
+[32m+[m[32msi aparece en verde significa que falta el commit y si no aparece nada significa[m
+[32m+[m[32mque ya se hizo el commit o no hay nada para modificar[m
+ git status -s[m
+ [m
+ ----------------------------[m
+\ No newline at end of file[m

@@ -89,7 +89,39 @@ git status
 
 OTRA FORMA
 Sirve para solo recibir informaciona al respecto de los archivo o carpetas
-y no tanta información como con <git status>
+y no tanta información como con <git status>.
+Si aparece algun archivo en rojo significa que aun no se encuentra en stage
+si aparece en verde significa que falta el commit y si no aparece nada significa
+que ya se hizo el commit o no hay nada para modificar
 git status -s
+
+----------------------------
+
+
+Ver los cambios que se tienen que hacer (que aun no se han hecho)
+notas: Para salir de esto se oprime la letra q
+git diff
+
+
+----------------------------
+
+
+Sirve para ver los cambios que están listos para ser comprometidos
+notas: Para salir de esto se oprime la letra q
+git diff --staged
+
+
+----------------------------
+
+
+Sirve para ver el historial de los commits hechos con información como el nombre
+fecha y hora 
+git log
+
+OTRA FORMA
+Sirve para ver los commits pero sin tanta información y con un id del commit
+git log --oneline
+
+
 
 ----------------------------

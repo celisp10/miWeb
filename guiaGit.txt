@@ -139,8 +139,15 @@ a la rama inicial)
 git checkout -b <nombre de la rama>
 
 Ejemplos
--git checkout features/rama
--git checkout ramab
+-git checkout -b features/rama
+-git checkout -b ramab
 
 
 ----------------------------
+
+
+Sirve para cambiarnos de rama
+git checkout <nombre de la rama>
+
+Ejemplo
+git checkout master
